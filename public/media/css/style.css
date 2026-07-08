@@ -1,0 +1,15 @@
+@font-face {
+    font-family: gFlex;
+    src: url(../fonts/Google_Sans_Flex/static/GoogleSansFlex_24pt-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: gFlex;
+    line-height: 1;
+}

@@ -1,0 +1,1076 @@
+{
+  "hero": {
+    "items": [
+      {
+        "id": 1,
+        "filename": "duke.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/hero/duke.jpg",
+        "relativePath": "hero/duke.jpg"
+      },
+      {
+        "id": 43,
+        "filename": "king.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/hero/king.jpg",
+        "relativePath": "hero/king.jpg"
+      },
+      {
+        "id": 44,
+        "filename": "minion.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/hero/minion.jpg",
+        "relativePath": "hero/minion.jpg"
+      },
+      {
+        "id": 57,
+        "filename": "queen.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/hero/queen.jpg",
+        "relativePath": "hero/queen.jpg"
+      },
+      {
+        "id": 58,
+        "filename": "rc.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/hero/rc.jpg",
+        "relativePath": "hero/rc.jpg"
+      },
+      {
+        "id": 59,
+        "filename": "warden.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/hero/warden.jpg",
+        "relativePath": "hero/warden.jpg"
+      }
+    ],
+    "gear": {
+      "items": [
+        {
+          "id": 2,
+          "filename": "archerPuppet.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/archerPuppet.jpg",
+          "relativePath": "hero/gear/archerPuppet.jpg"
+        },
+        {
+          "id": 3,
+          "filename": "barbarianPuppet.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/barbarianPuppet.jpg",
+          "relativePath": "hero/gear/barbarianPuppet.jpg"
+        },
+        {
+          "id": 4,
+          "filename": "darkCrown.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/darkCrown.jpg",
+          "relativePath": "hero/gear/darkCrown.jpg"
+        },
+        {
+          "id": 5,
+          "filename": "dumble.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/dumble.jpg",
+          "relativePath": "hero/gear/dumble.jpg"
+        },
+        {
+          "id": 6,
+          "filename": "electroBoots.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/electroBoots.jpg",
+          "relativePath": "hero/gear/electroBoots.jpg"
+        },
+        {
+          "id": 7,
+          "filename": "electroFang.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/electroFang.jpg",
+          "relativePath": "hero/gear/electroFang.jpg"
+        },
+        {
+          "id": 8,
+          "filename": "fahh.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/fahh.jpg",
+          "relativePath": "hero/gear/fahh.jpg"
+        },
+        {
+          "id": 9,
+          "filename": "fahh2.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/fahh2.jpg",
+          "relativePath": "hero/gear/fahh2.jpg"
+        },
+        {
+          "id": 10,
+          "filename": "fireBall.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/fireBall.jpg",
+          "relativePath": "hero/gear/fireBall.jpg"
+        },
+        {
+          "id": 11,
+          "filename": "freeze.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/freeze.jpg",
+          "relativePath": "hero/gear/freeze.jpg"
+        },
+        {
+          "id": 12,
+          "filename": "frozenArrow.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/frozenArrow.jpg",
+          "relativePath": "hero/gear/frozenArrow.jpg"
+        },
+        {
+          "id": 13,
+          "filename": "giantArrow.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/giantArrow.jpg",
+          "relativePath": "hero/gear/giantArrow.jpg"
+        },
+        {
+          "id": 14,
+          "filename": "giantGiant.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/giantGiant.jpg",
+          "relativePath": "hero/gear/giantGiant.jpg"
+        },
+        {
+          "id": 15,
+          "filename": "hastle.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/hastle.jpg",
+          "relativePath": "hero/gear/hastle.jpg"
+        },
+        {
+          "id": 16,
+          "filename": "healing.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/healing.jpg",
+          "relativePath": "hero/gear/healing.jpg"
+        },
+        {
+          "id": 17,
+          "filename": "healingPuppet.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/healingPuppet.jpg",
+          "relativePath": "hero/gear/healingPuppet.jpg"
+        },
+        {
+          "id": 18,
+          "filename": "healRc.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/healRc.jpg",
+          "relativePath": "hero/gear/healRc.jpg"
+        },
+        {
+          "id": 19,
+          "filename": "heart.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/heart.jpg",
+          "relativePath": "hero/gear/heart.jpg"
+        },
+        {
+          "id": 20,
+          "filename": "hogPuppet.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/hogPuppet.jpg",
+          "relativePath": "hero/gear/hogPuppet.jpg"
+        },
+        {
+          "id": 21,
+          "filename": "horse.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/horse.jpg",
+          "relativePath": "hero/gear/horse.jpg"
+        },
+        {
+          "id": 22,
+          "filename": "invisible.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/invisible.jpg",
+          "relativePath": "hero/gear/invisible.jpg"
+        },
+        {
+          "id": 23,
+          "filename": "jetPack.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/jetPack.jpg",
+          "relativePath": "hero/gear/jetPack.jpg"
+        },
+        {
+          "id": 24,
+          "filename": "katok.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/katok.jpg",
+          "relativePath": "hero/gear/katok.jpg"
+        },
+        {
+          "id": 25,
+          "filename": "kebal.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/kebal.jpg",
+          "relativePath": "hero/gear/kebal.jpg"
+        },
+        {
+          "id": 26,
+          "filename": "lavaloon.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/lavaloon.jpg",
+          "relativePath": "hero/gear/lavaloon.jpg"
+        },
+        {
+          "id": 27,
+          "filename": "lembing.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/lembing.jpg",
+          "relativePath": "hero/gear/lembing.jpg"
+        },
+        {
+          "id": 28,
+          "filename": "liveAura.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/liveAura.jpg",
+          "relativePath": "hero/gear/liveAura.jpg"
+        },
+        {
+          "id": 29,
+          "filename": "magicMirror.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/magicMirror.jpg",
+          "relativePath": "hero/gear/magicMirror.jpg"
+        },
+        {
+          "id": 30,
+          "filename": "meteor.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/meteor.jpg",
+          "relativePath": "hero/gear/meteor.jpg"
+        },
+        {
+          "id": 31,
+          "filename": "minionPuppet.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/minionPuppet.jpg",
+          "relativePath": "hero/gear/minionPuppet.jpg"
+        },
+        {
+          "id": 32,
+          "filename": "monolithArrow.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/monolithArrow.jpg",
+          "relativePath": "hero/gear/monolithArrow.jpg"
+        },
+        {
+          "id": 33,
+          "filename": "obor.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/obor.jpg",
+          "relativePath": "hero/gear/obor.jpg"
+        },
+        {
+          "id": 34,
+          "filename": "rage.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/rage.jpg",
+          "relativePath": "hero/gear/rage.jpg"
+        },
+        {
+          "id": 35,
+          "filename": "rageAura.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/rageAura.jpg",
+          "relativePath": "hero/gear/rageAura.jpg"
+        },
+        {
+          "id": 36,
+          "filename": "sempol.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/sempol.jpg",
+          "relativePath": "hero/gear/sempol.jpg"
+        },
+        {
+          "id": 37,
+          "filename": "shield.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/shield.jpg",
+          "relativePath": "hero/gear/shield.jpg"
+        },
+        {
+          "id": 38,
+          "filename": "snake.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/snake.jpg",
+          "relativePath": "hero/gear/snake.jpg"
+        },
+        {
+          "id": 39,
+          "filename": "spike.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/spike.jpg",
+          "relativePath": "hero/gear/spike.jpg"
+        },
+        {
+          "id": 40,
+          "filename": "thanos.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/thanos.jpg",
+          "relativePath": "hero/gear/thanos.jpg"
+        },
+        {
+          "id": 41,
+          "filename": "vampire.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/vampire.jpg",
+          "relativePath": "hero/gear/vampire.jpg"
+        },
+        {
+          "id": 42,
+          "filename": "wartquake.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/gear/wartquake.jpg",
+          "relativePath": "hero/gear/wartquake.jpg"
+        }
+      ]
+    },
+    "pets": {
+      "items": [
+        {
+          "id": 45,
+          "filename": "fox.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/pets/fox.jpg",
+          "relativePath": "hero/pets/fox.jpg"
+        },
+        {
+          "id": 46,
+          "filename": "frosty.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/pets/frosty.jpg",
+          "relativePath": "hero/pets/frosty.jpg"
+        },
+        {
+          "id": 47,
+          "filename": "haciu.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/pets/haciu.jpg",
+          "relativePath": "hero/pets/haciu.jpg"
+        },
+        {
+          "id": 48,
+          "filename": "jelly.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/pets/jelly.jpg",
+          "relativePath": "hero/pets/jelly.jpg"
+        },
+        {
+          "id": 49,
+          "filename": "lassi.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/pets/lassi.jpg",
+          "relativePath": "hero/pets/lassi.jpg"
+        },
+        {
+          "id": 50,
+          "filename": "lizard.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/pets/lizard.jpg",
+          "relativePath": "hero/pets/lizard.jpg"
+        },
+        {
+          "id": 51,
+          "filename": "owl.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/pets/owl.jpg",
+          "relativePath": "hero/pets/owl.jpg"
+        },
+        {
+          "id": 52,
+          "filename": "phoenix.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/pets/phoenix.jpg",
+          "relativePath": "hero/pets/phoenix.jpg"
+        },
+        {
+          "id": 53,
+          "filename": "raven.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/pets/raven.jpg",
+          "relativePath": "hero/pets/raven.jpg"
+        },
+        {
+          "id": 54,
+          "filename": "trenggiling.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/pets/trenggiling.jpg",
+          "relativePath": "hero/pets/trenggiling.jpg"
+        },
+        {
+          "id": 55,
+          "filename": "unicorn.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/pets/unicorn.jpg",
+          "relativePath": "hero/pets/unicorn.jpg"
+        },
+        {
+          "id": 56,
+          "filename": "yak.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/hero/pets/yak.jpg",
+          "relativePath": "hero/pets/yak.jpg"
+        }
+      ]
+    }
+  },
+  "spell": {
+    "items": [
+      {
+        "id": 60,
+        "filename": "angry.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/angry.jpg",
+        "relativePath": "spell/angry.jpg"
+      },
+      {
+        "id": 61,
+        "filename": "batSpell.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/batSpell.jpg",
+        "relativePath": "spell/batSpell.jpg"
+      },
+      {
+        "id": 62,
+        "filename": "clone.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/clone.jpg",
+        "relativePath": "spell/clone.jpg"
+      },
+      {
+        "id": 63,
+        "filename": "eartquake.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/eartquake.jpg",
+        "relativePath": "spell/eartquake.jpg"
+      },
+      {
+        "id": 64,
+        "filename": "frezze.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/frezze.jpg",
+        "relativePath": "spell/frezze.jpg"
+      },
+      {
+        "id": 65,
+        "filename": "haling.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/haling.jpg",
+        "relativePath": "spell/haling.jpg"
+      },
+      {
+        "id": 66,
+        "filename": "hastle.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/hastle.jpg",
+        "relativePath": "spell/hastle.jpg"
+      },
+      {
+        "id": 67,
+        "filename": "ice.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/ice.jpg",
+        "relativePath": "spell/ice.jpg"
+      },
+      {
+        "id": 68,
+        "filename": "invis.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/invis.jpg",
+        "relativePath": "spell/invis.jpg"
+      },
+      {
+        "id": 69,
+        "filename": "jump.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/jump.jpg",
+        "relativePath": "spell/jump.jpg"
+      },
+      {
+        "id": 70,
+        "filename": "ligtning.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/ligtning.jpg",
+        "relativePath": "spell/ligtning.jpg"
+      },
+      {
+        "id": 71,
+        "filename": "posion.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/posion.jpg",
+        "relativePath": "spell/posion.jpg"
+      },
+      {
+        "id": 72,
+        "filename": "rage.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/rage.jpg",
+        "relativePath": "spell/rage.jpg"
+      },
+      {
+        "id": 73,
+        "filename": "recall.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/recall.jpg",
+        "relativePath": "spell/recall.jpg"
+      },
+      {
+        "id": 74,
+        "filename": "revive.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/revive.jpg",
+        "relativePath": "spell/revive.jpg"
+      },
+      {
+        "id": 75,
+        "filename": "root.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/root.jpg",
+        "relativePath": "spell/root.jpg"
+      },
+      {
+        "id": 76,
+        "filename": "skeletonSpell.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/skeletonSpell.jpg",
+        "relativePath": "spell/skeletonSpell.jpg"
+      },
+      {
+        "id": 77,
+        "filename": "totem.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/spell/totem.jpg",
+        "relativePath": "spell/totem.jpg"
+      }
+    ]
+  },
+  "units": {
+    "angka": {
+      "items": [
+        {
+          "id": 78,
+          "filename": "0.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/0.jpg",
+          "relativePath": "units/angka/0.jpg"
+        },
+        {
+          "id": 79,
+          "filename": "1.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/1.jpg",
+          "relativePath": "units/angka/1.jpg"
+        },
+        {
+          "id": 80,
+          "filename": "10.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/10.jpg",
+          "relativePath": "units/angka/10.jpg"
+        },
+        {
+          "id": 81,
+          "filename": "11.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/11.jpg",
+          "relativePath": "units/angka/11.jpg"
+        },
+        {
+          "id": 82,
+          "filename": "12.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/12.jpg",
+          "relativePath": "units/angka/12.jpg"
+        },
+        {
+          "id": 83,
+          "filename": "13.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/13.jpg",
+          "relativePath": "units/angka/13.jpg"
+        },
+        {
+          "id": 84,
+          "filename": "14.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/14.jpg",
+          "relativePath": "units/angka/14.jpg"
+        },
+        {
+          "id": 85,
+          "filename": "15.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/15.jpg",
+          "relativePath": "units/angka/15.jpg"
+        },
+        {
+          "id": 86,
+          "filename": "16.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/16.jpg",
+          "relativePath": "units/angka/16.jpg"
+        },
+        {
+          "id": 87,
+          "filename": "17.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/17.jpg",
+          "relativePath": "units/angka/17.jpg"
+        },
+        {
+          "id": 88,
+          "filename": "18.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/18.jpg",
+          "relativePath": "units/angka/18.jpg"
+        },
+        {
+          "id": 89,
+          "filename": "2.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/2.jpg",
+          "relativePath": "units/angka/2.jpg"
+        },
+        {
+          "id": 90,
+          "filename": "3.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/3.jpg",
+          "relativePath": "units/angka/3.jpg"
+        },
+        {
+          "id": 91,
+          "filename": "4.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/4.jpg",
+          "relativePath": "units/angka/4.jpg"
+        },
+        {
+          "id": 92,
+          "filename": "5.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/5.jpg",
+          "relativePath": "units/angka/5.jpg"
+        },
+        {
+          "id": 93,
+          "filename": "6.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/6.jpg",
+          "relativePath": "units/angka/6.jpg"
+        },
+        {
+          "id": 94,
+          "filename": "7.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/7.jpg",
+          "relativePath": "units/angka/7.jpg"
+        },
+        {
+          "id": 95,
+          "filename": "8.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/8.jpg",
+          "relativePath": "units/angka/8.jpg"
+        },
+        {
+          "id": 96,
+          "filename": "9.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/9.jpg",
+          "relativePath": "units/angka/9.jpg"
+        },
+        {
+          "id": 97,
+          "filename": "bowler.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/bowler.jpg",
+          "relativePath": "units/angka/bowler.jpg"
+        },
+        {
+          "id": 98,
+          "filename": "druid.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/druid.jpg",
+          "relativePath": "units/angka/druid.jpg"
+        },
+        {
+          "id": 99,
+          "filename": "furnace.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/furnace.jpg",
+          "relativePath": "units/angka/furnace.jpg"
+        },
+        {
+          "id": 100,
+          "filename": "gole.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/gole.jpg",
+          "relativePath": "units/angka/gole.jpg"
+        },
+        {
+          "id": 101,
+          "filename": "granny.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/granny.jpg",
+          "relativePath": "units/angka/granny.jpg"
+        },
+        {
+          "id": 102,
+          "filename": "headHunter.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/headHunter.jpg",
+          "relativePath": "units/angka/headHunter.jpg"
+        },
+        {
+          "id": 103,
+          "filename": "hogRider.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/hogRider.jpg",
+          "relativePath": "units/angka/hogRider.jpg"
+        },
+        {
+          "id": 104,
+          "filename": "iceGolem.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/iceGolem.jpg",
+          "relativePath": "units/angka/iceGolem.jpg"
+        },
+        {
+          "id": 105,
+          "filename": "lavaHound.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/lavaHound.jpg",
+          "relativePath": "units/angka/lavaHound.jpg"
+        },
+        {
+          "id": 106,
+          "filename": "minion.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/minion.jpg",
+          "relativePath": "units/angka/minion.jpg"
+        },
+        {
+          "id": 107,
+          "filename": "miniWarden.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/miniWarden.jpg",
+          "relativePath": "units/angka/miniWarden.jpg"
+        },
+        {
+          "id": 108,
+          "filename": "valkyrie.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/valkyrie.jpg",
+          "relativePath": "units/angka/valkyrie.jpg"
+        },
+        {
+          "id": 109,
+          "filename": "which.jpg",
+          "extension": ".jpg",
+          "webPath": "/troops/units/angka/which.jpg",
+          "relativePath": "units/angka/which.jpg"
+        }
+      ]
+    },
+    "items": [
+      {
+        "id": 110,
+        "filename": "archer.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/archer.jpg",
+        "relativePath": "units/archer.jpg"
+      },
+      {
+        "id": 111,
+        "filename": "babyDragon.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/babyDragon.jpg",
+        "relativePath": "units/babyDragon.jpg"
+      },
+      {
+        "id": 112,
+        "filename": "ballon.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/ballon.jpg",
+        "relativePath": "units/ballon.jpg"
+      },
+      {
+        "id": 113,
+        "filename": "barak.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/barak.jpg",
+        "relativePath": "units/barak.jpg"
+      },
+      {
+        "id": 114,
+        "filename": "barbarian.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/barbarian.jpg",
+        "relativePath": "units/barbarian.jpg"
+      },
+      {
+        "id": 115,
+        "filename": "bor.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/bor.jpg",
+        "relativePath": "units/bor.jpg"
+      },
+      {
+        "id": 116,
+        "filename": "bowler.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/bowler.jpg",
+        "relativePath": "units/bowler.jpg"
+      },
+      {
+        "id": 117,
+        "filename": "dragon.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/dragon.jpg",
+        "relativePath": "units/dragon.jpg"
+      },
+      {
+        "id": 118,
+        "filename": "dragonRIder.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/dragonRIder.jpg",
+        "relativePath": "units/dragonRIder.jpg"
+      },
+      {
+        "id": 119,
+        "filename": "druid.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/druid.jpg",
+        "relativePath": "units/druid.jpg"
+      },
+      {
+        "id": 120,
+        "filename": "electroDragon.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/electroDragon.jpg",
+        "relativePath": "units/electroDragon.jpg"
+      },
+      {
+        "id": 121,
+        "filename": "electroTitan.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/electroTitan.jpg",
+        "relativePath": "units/electroTitan.jpg"
+      },
+      {
+        "id": 122,
+        "filename": "flameFlinger.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/flameFlinger.jpg",
+        "relativePath": "units/flameFlinger.jpg"
+      },
+      {
+        "id": 123,
+        "filename": "furnace.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/furnace.jpg",
+        "relativePath": "units/furnace.jpg"
+      },
+      {
+        "id": 124,
+        "filename": "giant.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/giant.jpg",
+        "relativePath": "units/giant.jpg"
+      },
+      {
+        "id": 125,
+        "filename": "goblin.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/goblin.jpg",
+        "relativePath": "units/goblin.jpg"
+      },
+      {
+        "id": 126,
+        "filename": "gole.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/gole.jpg",
+        "relativePath": "units/gole.jpg"
+      },
+      {
+        "id": 127,
+        "filename": "granny.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/granny.jpg",
+        "relativePath": "units/granny.jpg"
+      },
+      {
+        "id": 128,
+        "filename": "headHunter.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/headHunter.jpg",
+        "relativePath": "units/headHunter.jpg"
+      },
+      {
+        "id": 129,
+        "filename": "healer.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/healer.jpg",
+        "relativePath": "units/healer.jpg"
+      },
+      {
+        "id": 130,
+        "filename": "helicopter.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/helicopter.jpg",
+        "relativePath": "units/helicopter.jpg"
+      },
+      {
+        "id": 131,
+        "filename": "hogRider.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/hogRider.jpg",
+        "relativePath": "units/hogRider.jpg"
+      },
+      {
+        "id": 132,
+        "filename": "iceGolem.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/iceGolem.jpg",
+        "relativePath": "units/iceGolem.jpg"
+      },
+      {
+        "id": 133,
+        "filename": "lavaHound.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/lavaHound.jpg",
+        "relativePath": "units/lavaHound.jpg"
+      },
+      {
+        "id": 134,
+        "filename": "lembing.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/lembing.jpg",
+        "relativePath": "units/lembing.jpg"
+      },
+      {
+        "id": 135,
+        "filename": "logLauncher.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/logLauncher.jpg",
+        "relativePath": "units/logLauncher.jpg"
+      },
+      {
+        "id": 136,
+        "filename": "meteor.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/meteor.jpg",
+        "relativePath": "units/meteor.jpg"
+      },
+      {
+        "id": 137,
+        "filename": "miner.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/miner.jpg",
+        "relativePath": "units/miner.jpg"
+      },
+      {
+        "id": 138,
+        "filename": "minion.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/minion.jpg",
+        "relativePath": "units/minion.jpg"
+      },
+      {
+        "id": 139,
+        "filename": "miniWarden.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/miniWarden.jpg",
+        "relativePath": "units/miniWarden.jpg"
+      },
+      {
+        "id": 140,
+        "filename": "pekka.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/pekka.jpg",
+        "relativePath": "units/pekka.jpg"
+      },
+      {
+        "id": 141,
+        "filename": "ram.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/ram.jpg",
+        "relativePath": "units/ram.jpg"
+      },
+      {
+        "id": 142,
+        "filename": "rootRider.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/rootRider.jpg",
+        "relativePath": "units/rootRider.jpg"
+      },
+      {
+        "id": 143,
+        "filename": "stone.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/stone.jpg",
+        "relativePath": "units/stone.jpg"
+      },
+      {
+        "id": 144,
+        "filename": "tong.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/tong.jpg",
+        "relativePath": "units/tong.jpg"
+      },
+      {
+        "id": 145,
+        "filename": "valkyrie.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/valkyrie.jpg",
+        "relativePath": "units/valkyrie.jpg"
+      },
+      {
+        "id": 146,
+        "filename": "wallBreaker.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/wallBreaker.jpg",
+        "relativePath": "units/wallBreaker.jpg"
+      },
+      {
+        "id": 147,
+        "filename": "which.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/which.jpg",
+        "relativePath": "units/which.jpg"
+      },
+      {
+        "id": 148,
+        "filename": "wizard.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/wizard.jpg",
+        "relativePath": "units/wizard.jpg"
+      },
+      {
+        "id": 149,
+        "filename": "worte.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/worte.jpg",
+        "relativePath": "units/worte.jpg"
+      },
+      {
+        "id": 150,
+        "filename": "yetti.jpg",
+        "extension": ".jpg",
+        "webPath": "/troops/units/yetti.jpg",
+        "relativePath": "units/yetti.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "pushlimit",
+  "version": "1.0.0",
+  "description": "make a link for clash of clans",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "noelao",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "express-ejs-layouts": "^2.5.1"
+  }
+}

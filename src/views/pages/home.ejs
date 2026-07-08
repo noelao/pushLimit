@@ -1,0 +1,73 @@
+<link rel="stylesheet" href="./media/css/tampilkanLink.css">
+
+<style>
+    .container {
+        padding: .5rem;
+        width: 100%;
+    }
+    .wrapper {
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        width: 100%;
+    }
+
+    .formCari {
+        display: flex;
+        flex-direction: column;
+        gap: .2rem;
+        input {
+            border-radius: .2rem;
+            outline: none;
+            padding: .5rem;
+        }
+    }
+</style>
+
+<div class="container">
+    <h1>welcome</h1>
+
+    <div class="formCari">
+        
+        <label for="cari">search by name, link short / strategy</label>
+        <input type="text" name="cari" id="cari">
+        <button class="cari">cari</button>
+    </div>
+
+    <div class="wrapper">
+    </div>
+</div>
+
+
+<script type="module">
+    import { buatKartuUnit } from '/media/jsPartials/tampilkanLink.js';
+
+    const wrapper = document.querySelector('.wrapper');
+    ambilDataJson();
+
+    document.querySelector(".cari").addEventListener("click", function(){
+        const queryIni = document.getElementById("cari");
+        ambilDataJson(queryIni.value);
+    })
+
+    async function ambilDataJson(query = ""){
+        let data;
+        try {
+            const jsonIni = await fetch("./api/"+query);
+            data = await jsonIni.json();
+            data = data;
+        } catch (error) {
+            console.log(error);
+        } finally {
+            let buatKartu = "";
+            data.forEach((ini) => {
+                buatKartu += buatKartuUnit(ini);
+            })
+            wrapper.innerHTML = buatKartu;
+        }
+    }
+</script>
