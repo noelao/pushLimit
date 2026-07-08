@@ -2,8 +2,12 @@
 
 <style>
     .container {
-        padding: .5rem;
+        padding: 3rem 1rem;
         width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
     }
     .wrapper {
         padding: 1rem 0;
@@ -49,25 +53,56 @@
     const wrapper = document.querySelector('.wrapper');
     ambilDataJson();
 
+    // Event pencarian
     document.querySelector(".cari").addEventListener("click", function(){
         const queryIni = document.getElementById("cari");
         ambilDataJson(queryIni.value);
-    })
+    });
+
+    wrapper.addEventListener("click", async function(e) {
+        // Sesuaikan dengan class elemen Anda, yaitu '.copy'
+        const tombolCopy = e.target.closest('.copy');
+
+        // Jika yang diklik adalah elemen dengan class 'copy'
+        if (tombolCopy) {
+            // Mengambil nilai dari atribut 'linkSalin'
+            const teksYangAkanDisalin = tombolCopy.getAttribute('linkSalin');
+
+            try {
+                // Eksekusi fungsi copy
+                await navigator.clipboard.writeText(teksYangAkanDisalin);
+                
+                // Munculkan alert
+                alert("link successfull copy!");
+
+            } catch (err) {
+                console.error("Gagal menyalin teks: ", err);
+                alert("Gagal menyalin teks. Silakan coba lagi.");
+            }
+        }
+    });
+
 
     async function ambilDataJson(query = ""){
-        let data;
         try {
-            const jsonIni = await fetch("./api/"+query);
-            data = await jsonIni.json();
-            data = data;
+            const jsonIni = await fetch("./api/" + query);
+            const data = await jsonIni.json();
+            
+            let buatKartu = "";
+            // Pastikan data adalah array agar tidak error
+            if(Array.isArray(data)) {
+                data.forEach((ini) => {
+                    buatKartu += buatKartuUnit(ini);
+                });
+            } else {
+                buatKartu = "<p>Data tidak ditemukan</p>";
+            }
+            
+            wrapper.innerHTML = buatKartu;
+            
         } catch (error) {
             console.log(error);
-        } finally {
-            let buatKartu = "";
-            data.forEach((ini) => {
-                buatKartu += buatKartuUnit(ini);
-            })
-            wrapper.innerHTML = buatKartu;
+            wrapper.innerHTML = "<p>Terjadi kesalahan saat mengambil data.</p>";
         }
     }
 </script>

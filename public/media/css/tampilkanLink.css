@@ -8,7 +8,7 @@
     padding: 1rem .5rem;
     border-radius: .75rem;
 
-    border: solid 1px #000;
+    border: solid 1px var(--border);
     .top {
         display: flex;
         justify-content: space-between;
@@ -32,6 +32,11 @@
                 }
             }
         }
+    }
+    .bottom {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
     }
 }
 

@@ -4,7 +4,11 @@ const router = express.Router();
 
 
 router.get('/', (req, res) => {
-    res.render('pages/home', { title: 'Beranda' });
+    const currentTheme = req.cookies.theme || 'light';
+    res.render('pages/home', { 
+        title: 'Beranda',
+        theme: currentTheme
+    });
 });
 
 

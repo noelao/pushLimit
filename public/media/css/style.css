@@ -1,3 +1,9 @@
+:root {
+    --border : #0000003d;
+    --gelap: #000;
+    --terang: #fff;
+}
+
 @font-face {
     font-family: gFlex;
     src: url(../fonts/Google_Sans_Flex/static/GoogleSansFlex_24pt-Regular.ttf);
@@ -12,4 +18,32 @@
 body {
     font-family: gFlex;
     line-height: 1;
+    background-color: var(--terang);
+    color: var(--gelap);
+
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+/* gelap ke terang ke gelap */
+/* public/style.css */
+
+/* Mode Terang (Default) */
+/* Mode Gelap */
+[data-theme="dark"] {
+    --border : #ffffff3d;
+    --gelap: #ffffff;
+    --terang: #000000;
+}
+
+
+button {
+    background-color: var(--gelap);
+    color: var(--terang);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }

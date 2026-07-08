@@ -139,20 +139,25 @@ export function buatKartuUnit(dataUnit) {
         <div class="push">
             <div class="top">
                 <div class="kiri">
-                    <small>${dataUnit.name}</small>
-                    <small>uploader : ${dataUnit.uploader.nama}</small>
-                </div>
-                <div class="kanan">
-                    <div class="copy">
+                    <p>${dataUnit.name}</p>
+                    <p>uploader : ${dataUnit.uploader.nama}</p>
+                    </div>
+                    <div class="kanan">
+                    <div class="copy" linkSalin="${dataUnit.link}">
                         <img src="./media/icon/copy-link-icon.svg" alt="">
                     </div>
                     <a class="open" href="${dataUnit.link}" target="_blank">
-                        <img src="./media/icon/open-external-link-icon.svg" alt="">
+                    <img src="./media/icon/open-external-link-icon.svg" alt="">
                     </a>
-                </div>
-
-            </div>
+                    </div>
+                    
+                    </div>
             ${pasukan}
+            <div class="bottom">
+                <small>townhall : ${dataUnit.th}</small>
+                <small>${dataUnit.date}</small>
+            </div>
+            
         </div>
     `;
 }

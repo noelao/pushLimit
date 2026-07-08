@@ -1,54 +1,15 @@
 [
     {
         "id":1,
-        "name":"Undead Valkyrie",
-        "link":"https://link.clashofclans.com/id?action=CopyArmy&army=h2p8e4_34-1p4e20_17-7p11e57_56-4p10e12_40i1x1-6x12-1x75-1x82-1x135d1x98-2x35u39x12-2x82-1x97-1x4-1x91-1x87-1x75s2x3-4x10-1x35-1x2",
+        "name":"Royal Ghost Variant",
+        "link":"https://link.clashofclans.com/id?action=CopyArmy&army=h1p16e20_17-2p8e4_34-4p10e12_40-7p4e56_59i1x1-1x82-6x12-1x75-1x135d1x5-1x98-1x120u5x110-2x82-2x23-3x53-2x5-6x12-1x97-2x7-3x123-3x1-1x11-1x4-1x10-1x92-1x75-1x91s6x35-1x5-1x53-1x2",
         "th":18,
         "kategori":"looting",
         "date":"7/8/2026",
         "uploader":{
-            "nama":"noelao",
+            "nama":"elplongor",
             "pesan":"ambil kolong a dan c dengan hero dan spam valkyrie dari sisi b;"
         },
-        "query":"looting"
-    },
-    {
-        "id":2,
-        "name":"Undead Hero",
-        "link":"https://link.clashofclans.com/id?action=CopyArmy&army=h2p8e4_34-1p4e20_17-7p11e57_56-4p10e12_40i1x1-6x12-1x75-1x82-1x135d1x98-2x35u39x12-2x82-1x97-1x4-1x91-1x87-1x75s2x3-4x10-1x35-1x2",
-        "th":18,
-        "kategori":"war",
-        "date":"7/8/2026",
-        "uploader":{
-            "nama":"noelao",
-            "pesan":"ambil kolong a dan c dengan hero dan spam valkyrie dari sisi b;"
-        },
-        "query":"root rider valkyrie"
-    },
-    {
-        "id":3,
-        "name":"Hero On the way",
-        "link":"https://link.clashofclans.com/id?action=CopyArmy&army=h2p8e4_34-1p4e20_17-7p11e57_56-4p10e12_40i1x1-6x12-1x75-1x82-1x135d1x98-2x35u39x12-2x82-1x97-1x4-1x91-1x87-1x75s2x3-4x10-1x35-1x2",
-        "th":18,
-        "kategori":"war",
-        "date":"7/8/2026",
-        "uploader":{
-            "nama":"noelao",
-            "pesan":"ambil kolong a dan c dengan hero dan spam valkyrie dari sisi b;"
-        },
-        "query":"root rider"
-    },
-    {
-        "id":4,
-        "name":"debug",
-        "link":"https://link.clashofclans.com/id?action=CopyArmy&army=h7p7e52_59-6p16e35_43-4p8e6_7-2m1e22_41i1x91-1x87-1x0-1x1-1x3-1x4-1x5-1x6-1x7d1x10-1x98u1x150-1x109-1x97-1x123-1x58-1x82-1x17-1x22-1x13-1x15-1x11-1x188-1x135-1x92s1x109-1x123-1x70-1x28-1x11-1x17-1x9",
-        "th":18,
-        "kategori":"spam",
-        "date":"7/8/2026",
-        "uploader":{
-            "nama":"noelao",
-            "pesan":"sesuatu"
-        },
-        "query":"root rider valkyrie"
+        "query":"royal ghost, root rider"
     }
 ]

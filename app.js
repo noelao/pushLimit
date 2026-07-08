@@ -1,24 +1,24 @@
+// app.js
 const express = require('express');
+const cookieParser = require('cookie-parser');
 const path = require('path');
-const expressLayouts = require('express-ejs-layouts'); // 1. Import package
+const expressLayouts = require('express-ejs-layouts'); 
 
 const app = express();
 
-// Setup EJS
+// Middleware Cookie (Wajib ditambahkan agar route bisa baca cookie)
+app.use(cookieParser());
+
+// Setup EJS & Layouts
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'src/views'));
-
-// 2. Deklarasikan penggunaan express-ejs-layouts
 app.use(expressLayouts);
-
-// 3. Tentukan letak file layout default 
-// (akan mencari file di src/views/layouts/main.ejs)
 app.set('layout', 'layouts/utama'); 
 
 // Serve Static Files
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Routes
+// Panggil Routes
 const routes = require('./src/routes/index');
 app.use('/', routes);
 
