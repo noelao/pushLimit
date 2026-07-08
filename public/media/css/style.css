@@ -1,12 +1,42 @@
+
+/* 1. Ketebalan Normal / Regular (Weight: 400) */
+@font-face {
+    font-family: 'gFlex';
+    src: url('../fonts/Google_Sans_Flex/static/GoogleSansFlex_24pt-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 2. Ketebalan Medium (Weight: 500) */
+@font-face {
+    font-family: 'gFlex';
+    src: url('../fonts/Google_Sans_Flex/static/GoogleSansFlex_24pt-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* 3. Ketebalan Bold (Weight: 700) */
+@font-face {
+    font-family: 'gFlex';
+    src: url('../fonts/Google_Sans_Flex/static/GoogleSansFlex_24pt-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* 4. Jika Anda juga punya file untuk versi Italic */
+@font-face {
+    font-family: 'gFlex';
+    src: url('../fonts/Google_Sans_Flex/static/GoogleSansFlex_24pt-Light.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+
 :root {
     --border : #0000003d;
     --gelap: #000;
     --terang: #fff;
-}
-
-@font-face {
-    font-family: gFlex;
-    src: url(../fonts/Google_Sans_Flex/static/GoogleSansFlex_24pt-Regular.ttf);
+    --terang2: #d2cbcb;
 }
 
 * {
@@ -33,8 +63,9 @@ body {
 /* Mode Gelap */
 [data-theme="dark"] {
     --border : #ffffff3d;
-    --gelap: #ffffff;
-    --terang: #000000;
+    --gelap: #e6e6e6;
+    --terang: #252525;
+    --terang2: #151515;
 }
 
 

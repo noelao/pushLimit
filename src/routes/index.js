@@ -6,7 +6,7 @@ const router = express.Router();
 router.get('/', (req, res) => {
     const currentTheme = req.cookies.theme || 'light';
     res.render('pages/home', { 
-        title: 'Beranda',
+        title: 'pushLimit',
         theme: currentTheme
     });
 });
