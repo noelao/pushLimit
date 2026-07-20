@@ -4,7 +4,12 @@
     flex-direction: column;
     gap: .8rem;
 
+    /* background-color: color-mix(in srgb, var(--terang2) 50%, transparent); */
+    
+    --tw-backdrop-blur: blur(14px);
+    backdrop-filter: var(--tw-backdrop-blur);
     background-color: color-mix(in srgb, var(--terang2) 50%, transparent);
+
     padding: 1rem .5rem;
     border-radius: .75rem;
 

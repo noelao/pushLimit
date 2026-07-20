@@ -29,6 +29,11 @@
             border: solid var(--border) 2px;
             outline: none;
             padding: .5rem;
+            background-color: var(--search);
+            width: 100%;
+        }
+        .max {
+            width: 100%;
         }
     }
     .di-home {
@@ -50,11 +55,21 @@
 
     <div class="formCari">
         <label for="cari">
-            <h2>Search<span style="opacity: .3;">...<span></h2>
+            <h2>Search <span style="opacity: .3;">.. .<span></h2>
         </label>
         <small>search by name, link short / strategy</small>
-        <input type="text" name="cari" id="cari">
-        <button class="cari">cari</button>
+
+        <div class="tengahin" style="gap: .3rem;">
+            <input type="text" name="cari" id="cari">
+            <div class="row" style="gap: .3rem;">
+                <button class="apa max">cari</button>
+                <button class="cari max">
+                    <h3>
+                        load >
+                    </h3>
+                </button>
+            </div>
+        </div>
     </div>
 
     <div class="wrapper">

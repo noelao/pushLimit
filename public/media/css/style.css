@@ -38,6 +38,9 @@
     --terang: #f5f5f5;
     --terang2: #efefef;
     --nav: hsl(0 0% 93% / 72%);
+
+    --search: #fafafa;
+    --button:#1167e0;
 }
 
 * {
@@ -70,11 +73,14 @@ body {
     --terang: #3c3c3c;
     --terang2: #151515;
     --nav:hsla(0, 0%, 7%, 0.72);
+    
+    --search: #e8e8e8;
+    --button:#b4d3ff;
 }
 
 
 button {
-    background-color: var(--gelap);
+    background-color: var(--button);
     color: var(--terang);
     border: none;
     padding: 10px 20px;
@@ -95,6 +101,10 @@ button {
     align-items: center;
     width: 100%;
     flex-direction: column;
+}
+.row {
+    display: flex;
+    width: 100%;
 }
 
 .png-icon {
