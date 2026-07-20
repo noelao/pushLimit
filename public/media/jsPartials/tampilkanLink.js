@@ -139,22 +139,23 @@ export function buatKartuUnit(dataUnit) {
         <div class="push">
             <div class="top">
                 <div class="kiri">
-                    <p>${dataUnit.name}</p>
-                    <p>uploader : ${dataUnit.uploader.nama}</p>
+                    <h4>${dataUnit.name}</h4>
+                    <small>townhall : ${dataUnit.th}</small>
+
                     </div>
                     <div class="kanan">
                     <div class="copy" linkSalin="${dataUnit.link}">
-                        <img src="./media/icon/copy-link-icon.svg" alt="">
+                        <img src="./media/icon/copy-link-icon.svg" alt="" class="png-icon">
                     </div>
                     <a class="open" href="${dataUnit.link}" target="_blank">
-                    <img src="./media/icon/open-external-link-icon.svg" alt="">
+                    <img src="./media/icon/open-external-link-icon.svg" alt="" class="png-icon">
                     </a>
                     </div>
                     
                     </div>
             ${pasukan}
             <div class="bottom">
-                <small>townhall : ${dataUnit.th}</small>
+                <small>from: ${dataUnit.uploader.nama}</small>
                 <small>${dataUnit.date}</small>
             </div>
             

@@ -24,7 +24,6 @@
         display: flex;
         flex-direction: column;
         gap: .2rem;
-        font-weight: bold;
         input {
             border-radius: .5rem;
             border: solid var(--border) 2px;
@@ -35,11 +34,15 @@
 </style>
 
 <div class="container">
-    <h1>welcome</h1>
+    <div class="tengahin" style="height: 120px; padding: 2rem; margin-bottom: 120px;">
+        <h1 style="font-size: 3rem; text-align: center; line-height: 1;">Welcome Chief 🤠</h1>
+    </div>
 
     <div class="formCari">
-        
-        <label for="cari">search by name, link short / strategy</label>
+        <label for="cari">
+            <h2>Search<span style="opacity: .3;">...<span></h2>
+        </label>
+        <small>search by name, link short / strategy</small>
         <input type="text" name="cari" id="cari">
         <button class="cari">cari</button>
     </div>

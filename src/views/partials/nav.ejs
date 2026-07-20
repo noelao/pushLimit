@@ -21,7 +21,7 @@
 
             --tw-backdrop-blur: blur(24px);
             backdrop-filter: var(--tw-backdrop-blur);
-            background-color: hsl(0 0% 93% / 72%);
+            background-color: var(--nav);
 
             .atas {
                 height: 0;
@@ -56,8 +56,8 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    svg {
-                        height: 70%;
+                    img {
+                        height: 130%;
                     }
                 }
                 .navMenu {
@@ -70,7 +70,7 @@
                     span {
                         width: 100%;
                         height: 3px;
-                        background-color: #000;
+                        background-color: var(--gelap);
                         transition: transform .3s ease;
                     }
                 }
@@ -115,9 +115,7 @@
             </div>
             <div class="bawah">
                 <a href="/" class="logo">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="24" height="24">
-                        <path d="M 0 0 H 192 L 0 192 H 192 Z" fill="currentColor"/>
-                    </svg>
+                    <img class="png-icon" src="./logoPushLimit.png" alt="">
                 </a>
                 <div class="navMenu">
                     <span></span>

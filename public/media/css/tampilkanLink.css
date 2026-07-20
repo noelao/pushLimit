@@ -4,7 +4,7 @@
     flex-direction: column;
     gap: .8rem;
 
-    background-color: var(--terang2);
+    background-color: color-mix(in srgb, var(--terang2) 50%, transparent);
     padding: 1rem .5rem;
     border-radius: .75rem;
 
@@ -24,7 +24,7 @@
                 height: 2rem;
                 aspect-ratio: 1;
                 border-radius: .25rem;
-                border: solid 2px #00000031;
+                border: solid 2px var(--border);
                 padding: .25rem;
                 img {
                     height: 100%;
@@ -53,10 +53,10 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    background-color: #ffeeee;
+    /* background-color: #ffeeee; */
 }
 .spell, .hero {
-    background-color: #eefdff;
+    /* background-color: #eefdff; */
 }
 
 .kotak {
@@ -92,8 +92,8 @@
         height: var(--fontsize);
         aspect-ratio: 1;
 
-        color: white;
-        background: #000;
+        color: var(--terang);
+        background: var(--gelap);
         
         display: flex;
         align-items: center;
