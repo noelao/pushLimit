@@ -8,10 +8,16 @@ const api = express.Router();
 
 api.get('/', async (req, res) => {
     try {
-        const filePath = path.join(__dirname, '..', '..', 'data', 'semua.json');
-        const rawData = await fs.readFile(filePath, 'utf-8');
-        const jsonData = JSON.parse(rawData);
-        res.send(jsonData);
+        try {
+            const jsonIni = await fetch("https://noelao.github.io/dataJson/semua.json");
+            const data = await jsonIni.json();
+            res.send(data);
+        } catch (err) {
+            const filePath = path.join(__dirname, '..', '..', 'data', 'semua.json');
+            const rawData = await fs.readFile(filePath, 'utf-8');
+            const jsonData = JSON.parse(rawData);
+            res.send(jsonData);
+        }
     } catch(err){
         console.error("Error membaca data:", err);
         res.status(500).send('Gagal mengambil data JSON');

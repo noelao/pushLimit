@@ -36,7 +36,7 @@
     --border : #0000003d;
     --gelap: #000;
     --terang: #fff;
-    --terang2: #d2cbcb;
+    --terang2: #efefef;
 }
 
 * {
@@ -77,4 +77,10 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+.garis {
+    width: 100%;
+    height: 1px;
+    background-color: var(--border);
 }
