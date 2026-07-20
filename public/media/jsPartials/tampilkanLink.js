@@ -123,6 +123,11 @@ function uraikanLink(datas, ){
             </div>
             <div class="spell">
                 ${spell}
+                <div style="height:2.5rem; 
+                    right: .5rem; 
+                    padding: .4rem;">
+                    <img src="./media/images/spell.png" alt="" style="height:100%; filter:invert(30%);">
+                </div>
             </div>
             <div class="clancastle">
                 ${clancastle}
