@@ -120,11 +120,23 @@
             const data = await jsonIni.json();
             
             let buatKartu = "";
+            console.log(data);
             // Pastikan data adalah array agar tidak error
             if(Array.isArray(data)) {
-                data.forEach((ini) => {
-                    buatKartu += buatKartuUnit(ini);
-                });
+                if(data.length > 0){
+                    data.forEach((ini) => {
+                        buatKartu += buatKartuUnit(ini);
+                    });
+                } else {
+                    buatKartu = `
+                    <div class="errorMessage">
+                        <p>Data <span class="merah">${query}</span> tidak ditemukan</p>
+                        <small>coba gunakan spasi dengan benar</small>
+                        <img class="png-icon2" src="./media/images/peringantan.png" alt="" style="width: 100%; opacity: .3;">
+
+                    </div>
+                    `;
+                }
             } else {
                 buatKartu = "<p>Data tidak ditemukan</p>";
             }

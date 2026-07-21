@@ -1,36 +1,38 @@
-
 /* 1. Ketebalan Normal / Regular (Weight: 400) */
 @font-face {
     font-family: 'gFlex';
-    src: url('../fonts/Google_Sans_Flex/static/GoogleSansFlex_24pt-Regular.ttf');
+    src: url('../fonts/Google_Sans_Flex/static/GoogleSansFlex_24pt-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-display: block; /* Mencegah font bawaan muncul sementara */
 }
 
 /* 2. Ketebalan Medium (Weight: 500) */
 @font-face {
     font-family: 'gFlex';
-    src: url('../fonts/Google_Sans_Flex/static/GoogleSansFlex_24pt-Medium.ttf');
+    src: url('../fonts/Google_Sans_Flex/static/GoogleSansFlex_24pt-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
+    font-display: block;
 }
 
 /* 3. Ketebalan Bold (Weight: 700) */
 @font-face {
     font-family: 'gFlex';
-    src: url('../fonts/Google_Sans_Flex/static/GoogleSansFlex_24pt-Bold.ttf');
+    src: url('../fonts/Google_Sans_Flex/static/GoogleSansFlex_24pt-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
+    font-display: block;
 }
 
-/* 4. Jika Anda juga punya file untuk versi Italic */
+/* 4. Versi Italic */
 @font-face {
     font-family: 'gFlex';
-    src: url('../fonts/Google_Sans_Flex/static/GoogleSansFlex_24pt-Light.ttf');
+    src: url('../fonts/Google_Sans_Flex/static/GoogleSansFlex_24pt-Light.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
+    font-display: block;
 }
-
 
 :root {
     --border : #0000003d;
@@ -41,12 +43,17 @@
 
     --search: #fafafa;
     --button:#1167e0;
+    --merah: #cb0000;
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 body {
@@ -118,4 +125,10 @@ button {
 }
 [data-theme="dark"] .png-icon2 {
     filter: invert(0);
+}
+
+
+
+.merah {
+    color: var(--merah);
 }

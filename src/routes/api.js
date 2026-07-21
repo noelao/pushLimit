@@ -12,13 +12,15 @@ api.get('/', async (req, res) => {
             const jsonIni = await fetch("https://noelao.github.io/dataJson/semua.json");
             const data = await jsonIni.json();
             res.send(data);
-        } catch (err) {
+        } catch (err1) {
+            console.log("error jadi ambil di data local, ", (err1))
             const filePath = path.join(__dirname, '..', '..', 'data', 'semua.json');
             const rawData = await fs.readFile(filePath, 'utf-8');
             const jsonData = JSON.parse(rawData);
             res.send(jsonData);
         }
     } catch(err){
+
         console.error("Error membaca data:", err);
         res.status(500).send('Gagal mengambil data JSON');
     }
@@ -27,29 +29,53 @@ api.get('/', async (req, res) => {
 // search
 api.get('/:query', async (req, res) => {
     try {
-        // 1. Ambil keyword dari parameter URL dan jadikan huruf kecil
-        // Karena route menggunakan /:query, gunakan req.params
-        const keyword = req.params.query.toLowerCase();
-        
-        // 2. Baca dan parse file JSON
-        const filePath = path.join(__dirname, '..', '..', 'data', 'semua.json');
-        const rawData = await fs.readFile(filePath, 'utf-8');
-        const jsonData = JSON.parse(rawData);
-        
-        // 3. Lakukan filter pada data JSON
-        const filteredData = jsonData.filter((item) => {
-            // Gunakan opsional chaining (?.) untuk mencegah error jika ada data yang null/undefined
-            const matchName = item.name?.toLowerCase().includes(keyword);
-            const matchQuery = item.query?.toLowerCase().includes(keyword);
-            const matchKategori = item.kategori?.toLowerCase().includes(keyword);
-            const matchUploader = item.uploader?.nama?.toLowerCase().includes(keyword);
+        try {
+            const keyword = req.params.query.toLowerCase();
 
-            // Return true jika keyword cocok dengan salah satu field di atas
-            return matchName || matchQuery || matchKategori || matchUploader;
-        });
+            const jsonIni = await fetch("https://noelao.github.io/dataJson/semua.json");
+            const jsonData = await jsonIni.json();
+            
+            // 3. Lakukan filter pada data JSON
+            const filteredData = jsonData.filter((item) => {
+                // Gunakan opsional chaining (?.) untuk mencegah error jika ada data yang null/undefined
+                const matchName = item.name?.toLowerCase().includes(keyword);
+                const matchQuery = item.query?.toLowerCase().includes(keyword);
+                const matchKategori = item.kategori?.toLowerCase().includes(keyword);
+                const matchUploader = item.uploader?.nama?.toLowerCase().includes(keyword);
+    
+                // Return true jika keyword cocok dengan salah satu field di atas
+                return matchName || matchQuery || matchKategori || matchUploader;
+            });
+    
+            // 4. Kirimkan data yang HANYA lolos filter
+            res.send(filteredData);
+        } catch (err1) {
+            console.log("error jadi ambil di data local, ", (err1))
+            // 1. Ambil keyword dari parameter URL dan jadikan huruf kecil
+            // Karena route menggunakan /:query, gunakan req.params
+            const keyword = req.params.query.toLowerCase();
+            
+            // 2. Baca dan parse file JSON
+            const filePath = path.join(__dirname, '..', '..', 'data', 'semua.json');
+            const rawData = await fs.readFile(filePath, 'utf-8');
+            const jsonData = JSON.parse(rawData);
+            
+            // 3. Lakukan filter pada data JSON
+            const filteredData = jsonData.filter((item) => {
+                // Gunakan opsional chaining (?.) untuk mencegah error jika ada data yang null/undefined
+                const matchName = item.name?.toLowerCase().includes(keyword);
+                const matchQuery = item.query?.toLowerCase().includes(keyword);
+                const matchKategori = item.kategori?.toLowerCase().includes(keyword);
+                const matchUploader = item.uploader?.nama?.toLowerCase().includes(keyword);
+    
+                // Return true jika keyword cocok dengan salah satu field di atas
+                return matchName || matchQuery || matchKategori || matchUploader;
+            });
+    
+            // 4. Kirimkan data yang HANYA lolos filter
+            res.send(filteredData);
+        }
 
-        // 4. Kirimkan data yang HANYA lolos filter
-        res.send(filteredData);
 
     } catch(err){
         console.error("Error membaca data:", err);

@@ -133,3 +133,9 @@
     top: 0;
     left: 0;
 }
+
+.errorMessage {
+    display: flex;
+    flex-direction: column;
+    
+}

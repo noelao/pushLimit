@@ -1,5 +1,4 @@
 const datFoto = await fetch("./troops/data.json");
-console.log(await datFoto.json());
 
 
 function uraikanLink(datas, ){
@@ -8,10 +7,8 @@ function uraikanLink(datas, ){
     let dataIni2 = "{"+datas.replace("https://link.clashofclans.com/id?action=CopyArmy&army=", "").replace("h", "'h':['").replace("i", "'],'i':['").replace("u", "'],'u':['").replace("d", "'],'d':['").replace("s", "'],'s':['").replaceAll("-", "','")+"']}";
     let dataFinal = dataIni2.replace(/'/g, '"');
 
-    console.log(JSON.parse(dataFinal));
     let dataHuruf = JSON.parse(dataFinal);
     
-    console.log(dataIni2);
 
 
     let pasukan = "";
