@@ -90,10 +90,17 @@ button {
     background-color: var(--button);
     color: var(--terang);
     border: none;
+    border-radius: .75rem;
     padding: 10px 20px;
-    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+.tombol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid var(--border) 2px;
+    border-radius: .75rem;
 }
 
 .garis {
